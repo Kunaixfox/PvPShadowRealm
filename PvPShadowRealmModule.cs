@@ -9,12 +9,12 @@ using Microsoft.Xna.Framework;
 using System;
 using System.ComponentModel.Composition;
 using System.Threading.Tasks;
-using Teh.BHUD.PvPShadowRealmModule.Models;
-using Teh.BHUD.PvPShadowRealmModule.Controls;
+using BHUD.PvPShadowRealmModule.Models;
+using BHUD.PvPShadowRealmModule.Controls;
 
-namespace Teh.BHUD.PvPShadowRealmModule
+namespace BHUD.PvPShadowRealmModule
 {
-    // Define our own VirtualKeyShort enum for use with keyboard simulation.
+    //VirtualKeyShort enum for use with keyboard simulation.
     public enum VirtualKeyShort : ushort
     {
         RETURN = 0x0D,

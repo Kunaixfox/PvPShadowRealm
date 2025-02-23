@@ -1,11 +1,11 @@
 {
   "name": "PvPShadowRealm",
   "version": "0.1.0",
-  "namespace": "Teh.BHUD.PvPShadowRealmModule",
+  "namespace": "BHUD.PvPShadowRealmModule",
   "package": "PvPShadowRealm.dll",
   "manifest_version": 1,
 
-  "description": "Description of your module. Visit https://github.com/blish-hud/manifest.json/blob/master/manifest-v1.md for details about the manifest format.",
+  "description": "This module keeps and updated list of blocked PvP players and helps keep a positive community for its users. github: https://github.com/Kunaixfox/PvPShadowRealm",
   "dependencies": {
     "bh.blishhud": ">=0.5.2"
   },
@@ -15,6 +15,6 @@
       "name": "Kunaixfox"
     }
   ],
-  "directories": ["blacklistbuddy"],
+  "directories": ["pvpBlacklist"],
   "enabled_without_gw2": false
 }

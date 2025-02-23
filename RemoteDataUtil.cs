@@ -4,16 +4,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Newtonsoft.Json;
-using Teh.BHUD.PvPShadowRealmModule.Models;
+using BHUD.PvPShadowRealmModule.Models;
 
-namespace Teh.BHUD.PvPShadowRealmModule
+namespace BHUD.PvPShadowRealmModule
 {
     public static class RemoteDataUtil
     {
         private static readonly Logger Logger = Logger.GetLogger(typeof(RemoteDataUtil));
 
         // URL to the raw JSON file.
-        private const string BLOCKLIST_URI = "https://bhm.blishhud.com/Teh.BHUD.Blacklist_Buddy_Module/blocklist.json";
+        private const string BLOCKLIST_URI = "https://gist.githubusercontent.com/Kunaixfox/1f6651a57c17c5bd618417db39aa0c0d/raw/8f51249592749b1caa463b0e0f150682f8886630/PvP_Blacklist.json";
 
         // Static HttpClient instance to reuse for all requests.
         private static readonly HttpClient _httpClient = new HttpClient() { Timeout = TimeSpan.FromSeconds(30) };

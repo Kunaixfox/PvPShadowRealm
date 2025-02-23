@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Teh.BHUD.PvPShadowRealmModule.Controls
+namespace BHUD.PvPShadowRealmModule.Controls
 {
     public class PopupWindow : Container
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace Teh.BHUD.PvPShadowRealmModule.Models
+namespace BHUD.PvPShadowRealmModule.Models
 {
     public class BlacklistedPlayer
     {

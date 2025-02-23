@@ -339,7 +339,6 @@
     <Content Include="ref\1654245.png" />
     <Content Include="ref\Blacklist.png" />
     <Content Include="ref\BlacklistAlert.png" />
-    <Content Include="ref\The_Shadow_Realm.png" />
     <Content Include="SharpDX.D3DCompiler.dll" />
     <Content Include="SharpDX.D3DCompiler.xml" />
     <Content Include="SharpDX.dll" />

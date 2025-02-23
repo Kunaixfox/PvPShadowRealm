@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Teh.BHUD.PvPShadowRealmModule.Models;
+using BHUD.PvPShadowRealmModule.Models;
 
-namespace Teh.BHUD.PvPShadowRealmModule
+namespace BHUD.PvPShadowRealmModule
 {
     public class Blacklists
     {
@@ -54,7 +54,7 @@ namespace Teh.BHUD.PvPShadowRealmModule
         public Blacklists()
         {
             CachedListIndex = 0;
-            _blacklistFilePath = Path.Combine(PvPShadowRealmModule.ModuleInstance.DirectoriesManager.GetFullDirectoryPath("blacklistbuddy"), "Blacklist.json");
+            _blacklistFilePath = Path.Combine(PvPShadowRealmModule.ModuleInstance.DirectoriesManager.GetFullDirectoryPath("pvpBlacklist"), "pvpBlacklist.json");
         }
 
         public async Task LoadAll()

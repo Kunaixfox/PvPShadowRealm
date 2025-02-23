@@ -5,9 +5,9 @@ using Blish_HUD.Controls;
 using Blish_HUD.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Teh.BHUD.PvPShadowRealmModule;
+using BHUD.PvPShadowRealmModule;
 
-namespace Teh.BHUD.PvPShadowRealmModule.Controls
+namespace BHUD.PvPShadowRealmModule.Controls
 {
     public class BlacklistCornerIcon : CornerIcon
     {
@@ -47,7 +47,7 @@ namespace Teh.BHUD.PvPShadowRealmModule.Controls
 
             // Directly set the icon by wrapping the Texture2D in an AsyncTexture2D.
             Icon = new AsyncTexture2D(_blacklistIconTexture);
-            BasicTooltipText = "Blacklist Buddy - Click to open menu";
+            BasicTooltipText = "PvP Blacklist - Click to open menu";
             Parent = GameService.Graphics.SpriteScreen;
             Menu = _iconMenu;
 
@@ -162,7 +162,7 @@ namespace Teh.BHUD.PvPShadowRealmModule.Controls
             if (Icon == null || Icon.Texture != _blacklistIconTexture)
             {
                 Icon = new AsyncTexture2D(_blacklistIconTexture);
-                BasicTooltipText = "Blacklist Buddy";
+                BasicTooltipText = "PvP Blacklist";
             }
         }
 
